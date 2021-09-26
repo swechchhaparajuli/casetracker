@@ -1,0 +1,21 @@
+ResourceHubProject 
+|
++-- resources (app folder)
+|   |
+|   +-- migrations (includes files related to migrations) 
+|   |
+|   +-- static 
+|   |   |-- resources 
+|   |       |-- style.css
+|   |
+|   +-- templates
+|   |   |-- resources 
+|   |      |--resource_list.html
+|   |
+|   |-- models.py (python class for each database table) 
+|   |-- urls.py (app specific url mapping)
+|   |-- views.py (view fns. to handle http request)
+|+-- ResourceHubProject
+|   |
+|   |--setting.py (project config. file)
+|   |--urls.py (url mapping for the project)
