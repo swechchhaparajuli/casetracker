@@ -1,0 +1,1 @@
+web: gunicorn ResourceHubProject.wsgi --log-file -
